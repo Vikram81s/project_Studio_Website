@@ -1,0 +1,167 @@
+*{
+    font-family: sans-serif;
+}
+
+.logo a h1 {
+    color: #e72e77;
+    font-family: 'Monoton', cursive;
+    margin-top: 10px;
+    font-size: 45px;
+}
+
+hr{
+    margin: 0px;
+}
+
+.nav-item{
+    margin: 0px 5px;
+}
+
+.nav-link{
+    background-color: #f3f3f3;
+}
+
+.border{
+    color:#000;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-item:hover {
+ background-color: pink;
+}
+
+.shadow{
+    margin-bottom: 35px;
+    padding: 15px 12px 30px;
+}
+
+.serv{
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.web-post{
+    height: 800px;
+}
+
+.int{
+    padding: 0px 0px 15px;
+    font-size: 30px;
+}
+
+.content{
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-size: 15px;
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+.back{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.back h1{
+    padding-top: 240px;
+ color: white;
+}
+
+.vs{
+    display: block;
+}
+
+.mob{
+    display: none;
+}
+.mob a h1{
+    color: #e72e77;
+    font-family:  'Megrim', cursive;
+    margin-top: 10px;
+    font-size: 45px;"
+}
+.logo{
+    display: block;
+}
+
+.vss{
+    display: none;
+}
+
+.expl{
+    padding: 20px 0px 10px 30px;
+}
+
+.but{
+    background-color: pink;
+    color: #909090;
+    margin: 15px 0px;
+    font-weight: 500;
+}
+.bg{
+    background-color: #f3f3f3;
+    padding-top: 30px ;
+}
+
+.fhead{
+    color: #e72e77;
+    font-family: 'Monoton', cursive;
+    padding: 120px 5px;
+}
+
+@media(max-width: 768px){
+    .logo a h1 {
+    font-size: 33px;
+}
+
+.fhead{
+    padding: 20px 5px;
+}
+
+.web-post{
+    height: 275px;
+}
+
+.nav-link{
+    background-color:#fff;
+    text-align: center;
+    color:#fff;
+   }
+
+.border{
+    color: #fff;
+
+}
+
+.back{
+    height: 500px;
+    background-position: center;
+}
+
+.vs{
+    display: none;
+}
+
+.vss{
+    display: block;
+}
+
+.mob{
+    display: block;}
+    .mob a h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.logo{
+     display: none; 
+  
+}
+
+.a{
+    background-color:pink;
+}
+}

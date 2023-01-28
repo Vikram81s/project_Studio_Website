@@ -1,0 +1,164 @@
+.*{
+    font-family: sans-serif;
+}
+.logo a h1{
+    color: #e72e77;
+    font-family: 'Monoton', cursive;
+    margin-top: 10px;
+    font-size: 45px;
+}
+
+hr{
+    margin: 0px;
+}
+
+.nav-item{
+    margin: 0px 5px;
+}
+
+.nav-link{
+    background-color: #f3f3f3;
+}
+
+.border{
+    color:#000;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-item:hover {
+ background-color: pink;
+}
+
+.content{
+    font-size: 20px;
+    text-align: center;
+    line-height: 2rem;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    padding: 10px 30px 0px;
+}
+
+.banner{
+    height: 900px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner h1{
+ padding-top: 440px;
+ color: white;
+}
+
+.spec{
+    background-color: pink;
+    margin-top: 15px;
+}
+
+.head{
+    padding:30px 0px 6px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+}
+
+.para{
+    padding: 0px 85px 30px;
+font-size: 20px;
+letter-spacing: 1px;
+word-spacing: 4px;
+line-height: 2rem;
+}
+
+.expl{
+    padding: 20px 0px 10px;
+}
+
+.but{
+    background-color: pink;
+    color: #909090;
+    margin: 15px 0px;
+    font-weight: 500;
+}
+
+.bg{
+    background-color: #f3f3f3;
+    padding-top: 30px ;
+}
+
+.fhead{
+    color: #e72e77;
+    font-family: 'Monoton', cursive;
+    padding: 120px 5px;
+}
+
+.mob{
+    display: none;
+}
+.mob a h1{
+    color: #e72e77;
+    font-family:  'Megrim', cursive;
+    margin-top: 10px;
+    font-size: 45px;"
+}
+.logo{
+    display: block;
+}
+
+.vs{
+    display:block;
+}
+
+.vss{
+    display: none;
+}
+
+@media(max-width: 768px){
+    .logo a h1 {
+    font-size: 33px;
+}
+
+    .banner{
+    height: 700px;
+    background-position: center;
+}
+
+    .para{
+    padding: 0px 60px 30px;
+    }
+
+    .fhead{
+    padding: 20px 5px;
+}
+ 
+ .foll{
+    padding: 35px 0px 0px;
+ }
+
+   .nav-link{
+    text-align: center;
+   }
+    .vs{
+        display:none;
+    }
+
+    .vss{
+        display:block;
+    }
+
+    .mob{
+    display: block;}
+    .mob a h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.logo{
+     display: none; 
+  
+}
+
+.a{
+    background-color:pink;
+}
+}
